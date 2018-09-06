@@ -26,7 +26,7 @@ const cart = (state = {}, action) => {
 
 const storeInstance = createStore(
     combineReducers({cart}),
-    applyMiddleware(logger);
+    applyMiddleware(logger),
 );
 
 ReactDOM.render(<Provider store={storeInstance}><App /></Provider>, document.getElementById('root'));
