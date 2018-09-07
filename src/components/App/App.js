@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import { HashRouter as Router, Route, Link } from 'react-router-dom';
 import './App.css';
-import SelectPage from '../SelectPage/SelectPage.js';
-import CustomerPage from '../CustomerPage/CustomerPage.js';
-import CheckoutPage from '../CheckoutPage/CheckoutPage.js';
-import AdminPage from '../AdminPage/AdminPage.js';
+// import SelectPage from '../SelectPage/SelectPage.js';
+// import CustomerPage from '../CustomerPage/CustomerPage.js';
+// import CheckoutPage from '../CheckoutPage/CheckoutPage.js';
+// import AdminPage from '../AdminPage/AdminPage.js';
 
 class App extends Component {
   render() {
